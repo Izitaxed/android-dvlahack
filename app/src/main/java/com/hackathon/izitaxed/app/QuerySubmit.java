@@ -19,12 +19,13 @@ import java.io.InputStreamReader;
 public class QuerySubmit extends AsyncTask<Object, Void, Integer>
 {
     String json;
-    Integer result;
+    TextView submitView;
 
     @Override
     protected Integer doInBackground(Object... params)
     {
         this.json = (String) params[0];
+        this.submitView = (TextView) params[1];
 
         BufferedReader inBuffer = null;
         String url = "http://185.40.9.188:9110/DVLA/rest/postReport";
@@ -79,8 +80,9 @@ public class QuerySubmit extends AsyncTask<Object, Void, Integer>
     }
 
     protected void onPostExecute(Integer result) {
-        this.result = result;
-        System.out.println(result);
+        if(result == 200) {
+            submitView.setVisibility(View.VISIBLE);
+        }
     }
 
 
