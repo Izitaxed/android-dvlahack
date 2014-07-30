@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IziTaxed?</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcomeBox1">Welcome to the DVLA app for checking vehicle tax</string>
+    <string name="welcomeBox2">This handy little app will help you find out if a vehicle is <b>taxed</b> or is on <b>SORN (Statutory Off Road Notification)</b></string>
+    <string name="welcomeBox3">On the next page you will be able to submit a <b>Vehicle Registration Mark</b>, which will be checked against the <b>DVLA Vehicle Records</b></string>
+    <string name="welcomeBox4">If the vehicle is <b>untaxed</b>, you can help DVLA with the investigation of non-taxed vehicles by submitting a photo of the vehicle through this app.</string>
+    <string name="welcomeBox5">This process is anonymous and will help DVLA improve compliance on keeping a vehicle up to date.</string>
+    <string name="continueText">Continue</string>
+    <string name="backText">Back</string>
+    <string name="checkText">Check</string>
+    <string name="taxed">According to the DVLA Vehicle Records this Vehicle is currently taxed.</string>
+    <string name="unTaxed">According to the DVLA Vehicle Records this Vehicle is currently <b>Un-taxed.</b></string>
+    <string name="notFound">According to the DVLA this Vehicle is not in our records.</string>
+    <string name="checkTitle">Please enter Reg Mark of the Vehicle</string>
+    <string name="checkBox1">Please be aware that if you have taxed, made a SORN or had an MOT in the last 5 days these details may not have been updated.</string>
+    <string name="checkThanks">Thank you for your interest.</string>
+    <string name="checkNowSubmit">Please submit photographic evidence on the next page to help DVLA with their investigation.</string>
+    <string name="defaultVRM">ENTER VRM</string>
+    <string name="make">Make:</string>
+    <string name="model">Model:</string>
+    <string name="color">Colour:</string>
+    <string name="dummyMake">Volkswagen</string>
+    <string name="dummyModel">Transporter</string>
+    <string name="dummyColor">Red</string>
+    <string name="dummyResult">Thank you\n\nThis vehicle is not currently taxed according to our records</string>
+
+
+
+</resources>
