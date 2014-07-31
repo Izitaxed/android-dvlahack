@@ -27,7 +27,7 @@
     <string name="dummyModel">Transporter</string>
     <string name="dummyColor">Red</string>
     <string name="dummyResult">Thank you\n\nThis vehicle is not currently taxed according to our records</string>
-    <string name="submitted">Thank you\n\nBecause of you we now have a record of where this vehicle is kept.</string>
+    <string name="submitted">Thank you\n\nYour enquiry has been submitted.\n\nDVLA will follow up with the given information.</string>
 
 
 
