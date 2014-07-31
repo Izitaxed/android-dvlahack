@@ -176,7 +176,7 @@ public class MainActivity extends ActionBarActivity {
 
     protected void displayViewCamera(String vrm) {
         setContentView(R.layout.camera);
-        TextView submitView = (TextView) findViewById(R.id.submitted);
+        RelativeLayout submitView = (RelativeLayout) findViewById(R.id.submitted);
         submitView.setVisibility(View.GONE);
 
         final RelativeLayout cameraButton =(RelativeLayout) findViewById(R.id.cameraButton);
@@ -197,7 +197,7 @@ public class MainActivity extends ActionBarActivity {
                     Build.MANUFACTURER + " " + Build.MODEL
                 ).toString();
 
-                TextView submitView = (TextView) findViewById(R.id.submitted);
+                RelativeLayout submitView = (RelativeLayout) findViewById(R.id.submitted);
                 new QuerySubmit().execute(json, submitView);
 
             }

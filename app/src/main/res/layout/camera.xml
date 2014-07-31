@@ -7,7 +7,7 @@
     tools:context="com.hackathon.izitaxed.app.MainActivity">
 
     <RelativeLayout
-        android:layout_width="260dp"
+        android:layout_width="240dp"
         android:layout_height="60dp"
         android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true">
@@ -170,7 +170,7 @@
             android:id="@+id/vrm_box"
             android:background="@drawable/vrm_box"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="24dp"
             android:layout_marginLeft="10dp"
             android:gravity="center"
             android:text="@string/defaultVRM"
@@ -199,7 +199,9 @@
         android:id="@+id/submitButton"
         ></RelativeLayout>
 
-    <TextView
+
+
+    <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:text="@string/submitted"
@@ -208,9 +210,28 @@
         android:textSize="20dp"
         android:gravity="center"
         android:textStyle="bold"
-        android:background="#646464"
-        android:visibility="gone"
-        />
+        >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/submitted"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="#646464"
+            />
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/sbs"
+            />
+
+        </RelativeLayout>
+
 
 
 </RelativeLayout>

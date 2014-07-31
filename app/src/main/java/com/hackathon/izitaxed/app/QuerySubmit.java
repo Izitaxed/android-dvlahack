@@ -19,13 +19,13 @@ import java.io.InputStreamReader;
 public class QuerySubmit extends AsyncTask<Object, Void, Integer>
 {
     String json;
-    TextView submitView;
+    RelativeLayout submitView;
 
     @Override
     protected Integer doInBackground(Object... params)
     {
         this.json = (String) params[0];
-        this.submitView = (TextView) params[1];
+        this.submitView = (RelativeLayout) params[1];
 
         BufferedReader inBuffer = null;
         String url = "http://185.40.9.188:9110/DVLA/rest/postReport";
