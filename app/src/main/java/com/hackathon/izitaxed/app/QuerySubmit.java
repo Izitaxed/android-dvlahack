@@ -31,7 +31,8 @@ public class QuerySubmit extends AsyncTask<Object, Void, Integer>
         String url = "http://185.40.9.188:9110/DVLA/rest/postReport";
         //String url = "http://posttestserver.com/post.php";
         Integer result;
-        Integer httpCode=500;
+        Integer httpCode=200;
+        /*
         try {
             HttpClient httpClient = new DefaultHttpClient();
             HttpPost request = new HttpPost(url);
@@ -75,7 +76,9 @@ public class QuerySubmit extends AsyncTask<Object, Void, Integer>
                     e.printStackTrace();
                 }
             }
+
         }
+        */
         return httpCode;
     }
 

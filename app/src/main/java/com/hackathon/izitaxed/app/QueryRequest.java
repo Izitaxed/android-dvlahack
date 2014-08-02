@@ -61,7 +61,7 @@ public class QueryRequest extends AsyncTask<Object, Void, String>
         String url = "http://185.40.9.188:9110/DVLA/rest/colour";
         //String url = "http://posttestserver.com/post.php";
         String result;
-
+        /*
         try {
             HttpClient httpClient = new DefaultHttpClient();
             HttpPost request = new HttpPost(url);
@@ -104,7 +104,19 @@ public class QueryRequest extends AsyncTask<Object, Void, String>
                 }
             }
         }
-        return result;
+        */
+        JSONObject jsonObj = new JSONObject();
+        try {
+            jsonObj.put("isTaxed", false);
+            jsonObj.put("make", "Ford");
+            jsonObj.put("model", "Fiesta");
+            jsonObj.put("colour","Green");
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+
+
+        return jsonObj.toString();
     }
 
     protected void onPostExecute(String result)
